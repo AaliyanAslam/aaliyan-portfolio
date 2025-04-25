@@ -32,7 +32,7 @@ export default function Home() {
                 animate={{ opacity: 1, x: 0 }}
                 className="text-white font-bold text-xl font-heading"
               >
-                Portfolio
+                Aaliyan Aslam
               </motion.div>
 
               {/* Desktop Navigation */}
