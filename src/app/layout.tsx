@@ -14,7 +14,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Frontend Developer Portfolio",
+  title: "Aaliyan Aslam",
   description: "Professional portfolio showcasing frontend development skills and projects",
 };
 
