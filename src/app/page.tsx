@@ -115,7 +115,7 @@ export default function Home() {
               <div>
                 <h2 className="text-4xl font-bold text-white mb-6 font-heading">About Me</h2>
                 <p className="text-lg text-gray-300 mb-6">
-                  I am a passionate frontend developer with expertise in creating
+                  I&apos;m a passionate frontend developer with expertise in creating
                   modern web applications. I specialize in React, Next.js, and
                   responsive design.
                 </p>
@@ -189,7 +189,7 @@ export default function Home() {
             >
               <h2 className="text-4xl font-bold text-white mb-6 font-heading">Get In Touch</h2>
               <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                I am always open to new opportunities and collaborations. Lets create something amazing together!
+                I&apos;m always open to new opportunities and collaborations. Let&apos;s create something amazing together!
               </p>
               <motion.a
                href="mailto:aaliyanaslam22@gmail.com"
