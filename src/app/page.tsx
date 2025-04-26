@@ -104,7 +104,7 @@ export default function Home() {
 
         {/* About Section */}
         <section id="about" className="py-20 px-4">
-          <div className="max-w-7xl mx-auto">
+          <div className="max-w-7xl mx-auto ">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
@@ -153,26 +153,27 @@ export default function Home() {
         <section id="projects" className="py-20 px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-4xl font-bold text-white mb-12 text-center font-heading">
-              Featured Projects
+             Projects
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+           
               <ProjectCard
-                title="Project 1"
-                description="A modern web application built with React and Next.js"
-                tags={['React', 'Next.js', 'Tailwind CSS']}
-                link=""
+                title="( Chat App )"
+                description="Responsive Chatting platform with dynamic features ( AUTH ) System using Redux ( RTK )"
+                tags={['React', 'Redux', 'Firebase' , 'tailwind CSS' , 'Daysi UI']}
+                link="chat-app-tau-flax.vercel.app"
               />
               <ProjectCard
-                title="Project 2"
-                description="Responsive e-commerce platform with dynamic features"
-                tags={['TypeScript', 'Redux', 'API Integration']}
-                link=""
+                title="( E-commerce Cart System )"
+                description="Interactive UI/UX with real-time updates in cart with Redux ( RTK )"
+                tags={['React', 'API integration', 'Tailwind CSS' , 'Framer Motion' , 'Daysi UI']}
+                link="https://redux-toolkit-delta-eight.vercel.app/"
               />
-              <ProjectCard
-                title="Project 3"
-                description="Interactive dashboard with real-time updates"
-                tags={['React', 'WebSocket', 'Charts']}
-                link=""
+                 <ProjectCard
+                title="( Noon.com Clone )"
+                description="A modern web application built with React and Tailwind CSS"
+                tags={['React','Tailwind CSS']}
+                link="noon-com-clone.vercel.app"
               />
             </div>
           </div>
