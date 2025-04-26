@@ -115,7 +115,7 @@ export default function Home() {
               <div>
                 <h2 className="text-4xl font-bold text-white mb-6 font-heading">About Me</h2>
                 <p className="text-lg text-gray-300 mb-6">
-                  I'm a passionate frontend developer with expertise in creating
+                  I am a passionate frontend developer with expertise in creating
                   modern web applications. I specialize in React, Next.js, and
                   responsive design.
                 </p>
@@ -160,19 +160,19 @@ export default function Home() {
                 title="Project 1"
                 description="A modern web application built with React and Next.js"
                 tags={['React', 'Next.js', 'Tailwind CSS']}
-                link="https://project1.com"
+                link=""
               />
               <ProjectCard
                 title="Project 2"
                 description="Responsive e-commerce platform with dynamic features"
                 tags={['TypeScript', 'Redux', 'API Integration']}
-                link="https://project2.com"
+                link=""
               />
               <ProjectCard
                 title="Project 3"
                 description="Interactive dashboard with real-time updates"
                 tags={['React', 'WebSocket', 'Charts']}
-                link="https://project3.com"
+                link=""
               />
             </div>
           </div>
@@ -189,10 +189,11 @@ export default function Home() {
             >
               <h2 className="text-4xl font-bold text-white mb-6 font-heading">Get In Touch</h2>
               <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                I'm always open to new opportunities and collaborations. Let's create something amazing together!
+                I am always open to new opportunities and collaborations. Lets create something amazing together!
               </p>
               <motion.a
-                href="mailto:your@email.com"
+               href="mailto:aaliyanaslam22@gmail.com"
+
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors"
