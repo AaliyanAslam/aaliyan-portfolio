@@ -4,7 +4,6 @@ import { motion, useScroll, useSpring } from 'framer-motion';
 import { useState } from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope, FaBars, FaTimes } from 'react-icons/fa';
 import { HiCode, HiOutlineDesktopComputer, HiOutlineLightBulb } from 'react-icons/hi';
-
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { scrollYProgress } = useScroll();
@@ -120,13 +119,14 @@ export default function Home() {
                   modern web applications. I specialize in React, Next.js, and
                   responsive design.
                 </p>
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors"
-                >
-                  Download CV
-                </motion.button>
+                  <motion.button 
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+                  >
+                  <a href='AaliyanAslamCV.pdf' download> Download CV</a>
+                  
+                  </motion.button>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <SkillCard
