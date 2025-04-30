@@ -161,7 +161,7 @@ export default function Home() {
                 title="( Chat App )"
                 description="Responsive Chatting platform with dynamic features ( AUTH ) System using Redux ( RTK )"
                 tags={['React', 'Redux', 'Firebase' , 'tailwind CSS' , 'Daysi UI']}
-                link="chat-app-tau-flax.vercel.app"
+                link="https://chat-app-tau-flax.vercel.app"
               />
               <ProjectCard
                 title="( E-commerce Cart System )"
@@ -173,7 +173,8 @@ export default function Home() {
                 title="( Noon.com Clone )"
                 description="A modern web application built with React and Tailwind CSS"
                 tags={['React','Tailwind CSS']}
-                link="noon-com-clone.vercel.app"
+                link="https://noon-com-clone.vercel.app"
+                
               />
             </div>
           </div>
