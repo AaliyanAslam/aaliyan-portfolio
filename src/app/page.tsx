@@ -161,7 +161,7 @@ export default function Home() {
                 title="( Chat App )"
                 description="Responsive Chatting platform with dynamic features ( AUTH ) System using Redux ( RTK )"
                 tags={['React', 'Redux', 'Firebase' , 'tailwind CSS' , 'Daysi UI']}
-                link="https://chat-app-tau-flax.vercel.app"
+                link="https://chat-app-git-main-aaliyans-projects-f9ffc303.vercel.app/"
               />
               <ProjectCard
                 title="( E-commerce Cart System )"
