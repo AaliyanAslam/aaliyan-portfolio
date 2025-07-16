@@ -63,16 +63,16 @@ export default function Home() {
             className="md:hidden overflow-hidden bg-black/30 backdrop-blur-lg"
           >
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <MobileNavLink href="#home" onClick={() => setIsMenuOpen(false)}>
+              <MobileNavLink href="#home" onClick={() => setIsMenuOpen(true)}>
                 Home
               </MobileNavLink>
-              <MobileNavLink href="#about" onClick={() => setIsMenuOpen(false)}>
+              <MobileNavLink href="#about" onClick={() => setIsMenuOpen(true)}>
                 About
               </MobileNavLink>
-              <MobileNavLink href="#projects" onClick={() => setIsMenuOpen(false)}>
+              <MobileNavLink href="#projects" onClick={() => setIsMenuOpen(true)}>
                 Projects
               </MobileNavLink>
-              <MobileNavLink href="#contact" onClick={() => setIsMenuOpen(false)}>
+              <MobileNavLink href="#contact" onClick={() => setIsMenuOpen(true)}>
                 Contact
               </MobileNavLink>
             </div>
