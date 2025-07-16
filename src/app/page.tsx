@@ -1,8 +1,8 @@
 'use client';
 
 import { motion, useScroll, useSpring } from 'framer-motion';
-import { useState } from 'react';
-import { FaGithub, FaLinkedin, FaEnvelope, FaBars, FaTimes } from 'react-icons/fa';
+import { useEffect, useState } from 'react';
+import { FaGithub, FaLinkedin, FaEnvelope, FaBars, FaTimes , FaDatabase  } from 'react-icons/fa';
 import { HiCode, HiOutlineDesktopComputer, HiOutlineLightBulb } from 'react-icons/hi';
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,6 +12,12 @@ export default function Home() {
     damping: 30,
     restDelta: 0.001
   });
+
+useEffect(() => {
+ console.log("Menu state changed:", isMenuOpen);
+ 
+}, [isMenuOpen]);
+
 
   return (
     <>
@@ -95,7 +101,7 @@ export default function Home() {
               </p>
               <div className="flex justify-center space-x-6">
                 <SocialLink href="https://github.com/AaliyanAslam" icon={<FaGithub />} />
-                <SocialLink href="https://www.linkedin.com/in/aaliyan-aslam/" icon={<FaLinkedin />} />
+                <SocialLink href="https://www.linkedin.com/in/aaliyan-muhammad-aslam-884664374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" icon={<FaLinkedin />} />
                 <SocialLink href="mailto:aaliyanaslam22@gmail.com" icon={<FaEnvelope />} />
               </div>
             </motion.div>
@@ -113,7 +119,7 @@ export default function Home() {
               className="grid md:grid-cols-2 gap-12"
             >
               <div>
-                <h2 className="text-4xl font-bold text-white mb-6 font-heading">About Me</h2>
+                <h2 className="text-4xl font-bold text-white mb-6 font-heading text-center">About Me</h2>
                 <p className="text-lg text-gray-300 mb-6">
                   I&apos;m a passionate frontend developer with expertise in creating
                   modern web applications. I specialize in React, Next.js, and
@@ -122,7 +128,7 @@ export default function Home() {
                   <motion.button 
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+                    className="bg-blue-600 text-white px-8 py-3 rounded-lg flex justify-center items-center hover:bg-blue-700 transition-colors"
                   >
                   <a href='AaliyanNewCv.pdf' download> Download CV</a>
                   
@@ -144,6 +150,12 @@ export default function Home() {
                   title="Best Practices"
                   skills={['Clean Code', 'Performance', 'SEO']}
                 />
+                <SkillCard
+  icon={<FaDatabase />} // You can import this icon from 'react-icons/hi'
+  title="Backend Development"
+  skills={['Node.js', 'Express', 'MongoDB']}
+/>
+
               </div>
             </motion.div>
           </div>
