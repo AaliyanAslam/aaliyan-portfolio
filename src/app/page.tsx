@@ -118,7 +118,7 @@ useEffect(() => {
               viewport={{ once: true }}
               className="grid md:grid-cols-2 gap-12"
             >
-              <div>
+              <div className='flex items-center flex-col justify-center'>
                 <h2 className="text-4xl font-bold text-white mb-6 font-heading text-center">About Me</h2>
                 <p className="text-lg text-gray-300 mb-6">
                   I&apos;m a passionate frontend developer with expertise in creating
@@ -173,7 +173,7 @@ useEffect(() => {
                 title="( Chat App )"
                 description="Responsive Chatting platform with dynamic features ( AUTH ) System using Redux ( RTK )"
                 tags={['React', 'Redux', 'Firebase' , 'tailwind CSS' , 'Daysi UI']}
-                link="https://chat-app-git-main-aaliyans-projects-f9ffc303.vercel.app/"
+                link="https://chatupapk.netlify.app/"
               />
               <ProjectCard
                 title="( E-commerce Cart System )"
