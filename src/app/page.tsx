@@ -179,7 +179,7 @@ useEffect(() => {
                 title="( E-commerce Cart System )"
                 description="Interactive UI/UX with real-time updates in cart with Redux ( RTK )"
                 tags={['React', 'API integration', 'Tailwind CSS' , 'Framer Motion' , 'Daysi UI']}
-                link="https://redux-toolkit-delta-eight.vercel.app/"
+                link="https://hypercart.vercel.app/"
               />
                  <ProjectCard
                 title="( Noon.com Clone )"
